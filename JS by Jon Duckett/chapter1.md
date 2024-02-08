@@ -1,5 +1,7 @@
 # ABC of Programming
 
+There is only 13 chapters: Start on 12/5
+
 ### How Js makes web pages more interactive
  1. access content - access *element, attribute or text(content)*
  2. modify content -adding or removing *element, attribute, text*
@@ -44,5 +46,22 @@ What is the document Object?
 -Document Object has Properties, methods and events
 -The document object represents an HTML page  
 
+How a broswer sees a web page? 
 
+browser interprets the HMTL code and applies styling
+
+1. recieves HTML code
+2. create a model of the page and store it in memory (object, element, text, attributes)
+3. use a rendering engine to show the page on screen
+4. all major browsers use a js interperter to translate your inst. into instr. the comp. can follow. 
+
+How HTML, CSS and JS  fit together? 
+
+1. HTML content layer=== page structure and adds semantics
+2. CSS Presentation Layer === colors
+3. JS Behavior Layer === change the page behaves === interactive
+
+![Js](/img/calling%20a%20method.PNG)
+
+Javascript runs where it is found in the html you can put it in the footer or put DEFER
 
