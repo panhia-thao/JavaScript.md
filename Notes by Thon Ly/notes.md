@@ -39,6 +39,12 @@ var = " ";  this is conside a empty string
 
 All "const" variable need to be capitalized. 
 
+Variable are files that save data. 
+
+Example of variables are: 
+
+        Var, Let, Const,== these are capitalized
+
 ### Undefine
 
 no return will always be undefine
@@ -47,7 +53,7 @@ no return will always be undefine
 
 There are two types of function scope. 
         
-        Local scope (Gobal Scope) vs. Outer Scope
+    Local scope (Gobal Scope) vs. Outer Scope
 
         
 The local scope is the immediate family inside the function. The local scope of window has special global scope. These are basically the child of the window.
@@ -55,12 +61,37 @@ The outer scope is the first layer of the function (siblings)
 
 Execution in JS does not need to be exactly below its function but within the tree scope. 
 Any level tree structure can execute in the function. 
-Execution goes up.
-Fuction does down
+
+        Execution goes up.
+        Fuction does down
+
+When you want to *get* a variable or *call* a function in js. The computer look at local if it cannot look for it. it will go up to the outer scope. If it cannot find the function it is undefine or not defined. 
+        Function and variable excute inside JavaScript.
+
+variable const cannot be higher and cannot go into out function
+
+
+There are three places to execute functions
+
+        1. HTML as onclick
+        2. Console
+        3. Js in the code function()
+
+
 
 #### Function
 Functions are reusable. 
 
 Function return or returns undefined
-        undefined ==
+
+        undefined == there is a function
+        not defined == there is a error, no function
+
+
+
+#### log()
+
+new function window: console can be use in Js
+console.log("panhia")
+the function logs keep what you want in the log()
 
