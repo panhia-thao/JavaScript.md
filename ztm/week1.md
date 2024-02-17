@@ -97,3 +97,22 @@ Syntax in command prompt:
 
 Summary: To located how many locations or computer a file has to hop before it gets to our browser we use command prompt > traceroute or tracert to request the list of destinations. The map can help with browser technical 
 
+## Developer Fundamental
+
+Website Performance: 
+> location of server, how many trips and size of files.
+
+location of server if the server is close to you, the hop  makes it faster to load
+
+how many trips - the less trip, the faster it loads
+
+size of files - for ex. 100 megabyes slower vs kilobytes. 
+
+## What does a developer do? 
+
+Frontend developer - website visual
+Backend developer - backend 
+> frontend + backend = full stack developer
+
+## WWW vs Internet
+
