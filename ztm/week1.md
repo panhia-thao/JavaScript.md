@@ -116,3 +116,50 @@ Backend developer - backend
 
 ## WWW vs Internet
 
+The history of the world wide web (WWWW). 
+[Tim Berners-Lee](/img/tim.png)
+
+Tim Berners-Lee first web developer, created the browser and server and the first website in 1969 basically as a military project where it connects some university thru the 70s to the 80s to share academic documents faster pace. There was already computer. 
+
+A decentralized program. 
+
+## HTML, CSS, JS
+
+website that links
+
+HTML === text === Element tab
+CSS === visual === style tab
+JS === interactive === console
+
+## Developer fundamental: II
+
+multiple web broswers === broswer wars
+
+chrome vs. e vs firefox vs sarif
+phone screen size vs computer screen size
+web are created to share document amongst each other
+
+standards: 
+
+website fit browser for code. 
+test each browser. 
+
+
+## Developer do? 
+
+Frontend - user see (html, css, JS + react)
+Backend - Server technology uses (node.js and express.js) and database (postgreSQL, MongoDB)
+
+
+## Developer History 
+
+Full stack Dev. in the old days
+
+Front-end developer (html, css, js + jquery)
+
+Back end developer aka lamp stack- Apache Server (php), Database (mySQl)
+
+## Build your first website
+
+
+text editor allow us to write codes
