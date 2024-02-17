@@ -12,7 +12,7 @@ I want to be fancial independance.
 
 I want to be a full stack coder
 I want to fly on business class
-I want to have a real estate profile of 8 million dollar. 
+I want to have a real estate profile of 8 million dollars. 
 I want create my own app
 I want to be happy. 
 I want to be financial successful
@@ -21,6 +21,16 @@ I want my own legacy
 I want to be a business woman
 I want to be the best at programming 
 I want success and happiness. 
+I want my communication to be better. 
+I want to be positive and connect with people. 
+Twin babies
+
+
+Need Imposter Syndrome
+
+Need to rewrite into I am: 
+
+
 
 
 
