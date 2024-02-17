@@ -179,3 +179,55 @@ doctype tell the browser that it is html 5 it has more syntax and tags.
 1. (https://rubberduckdebugging.com/)
 2. (https://stackoverflow.com)
 3. (https://discord.com)
+
+HTMl tags
+
+heading tags <h1>
+paragraph tags <p>
+lorem tab 
+lorem 50 tab - creates 50 words.
+
+tags vs elements
+
+tag is just <h1>
+element includes opening and closing  <h1></h1>
+
+strong and em due to semantic. DO not use Italic or bold.
+
+order list > number > we can nest it
+unorder list > bullet
+
+self closing html 
+<br> break
+<h> horizontal line
+<img> image tag
+
+attribute = special attrible has value 
+
+> src="img/tim.png" 
+
+alt alternative text for screen reading
+
+Anchor Tag
+
+link to other docs.
+
+attribute is href="link"
+
+<span> <div> are deprecated 
+inline 
+
+## HTML vs HTML 5
+
+HTML start in 1991 does not have establish tags 
+
+HTML 5 has more feature, does not affect old website support backward compatible by introducing semantic elements (making website more descriptive). 
+
+## copy a website
+
+
+
+
+
+
+
