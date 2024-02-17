@@ -163,3 +163,19 @@ Back end developer aka lamp stack- Apache Server (php), Database (mySQl)
 
 
 text editor allow us to write codes
+
+use sublime
+
+## Developer fundamentals: III
+
+developer === problem solving
+
+What is Doctype? 
+
+doctype tell the browser that it is html 5 it has more syntax and tags. 
+
+## how to ask questions
+
+1. (https://rubberduckdebugging.com/)
+2. (https://stackoverflow.com)
+3. (https://discord.com)
