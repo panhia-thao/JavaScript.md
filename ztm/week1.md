@@ -225,6 +225,94 @@ HTML 5 has more feature, does not affect old website support backward compatible
 
 ## copy a website
 
+css propert css trick website, unsplash.com
+
+-border, background-image
+
+## CSS rules
+
+class attribute group elements
+id attribute only use once for an element
+star means selecting all elements
+element <> its inside a open/close tag
+element, element
+element > element h2 > p I want to select all parent of p of h2
+element + element I want two element next to each other immediate neighbor
+Pseudo class vs. pseudo element
+:hover
+:last-child
+:first child
+!important (not recommend) override any css rule
+
+> specificity
+
+(https://specificity.keegan.st/)
+
+ # Need to read mdn css
+
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
+
+
+## css game
+
+https://css-diner.netlify.app/
+
+
+text and font
+
+lorem tab
+
+text 
+line-height
+font-wieght
+font-size
+font-family
+
+## image
+
+float: right always use he clear on footer 
+> need to learn float and clear
+
+image tage need source, width and height
+
+
+box model:  content, padding (space bt content),border, margin (outside), 
+
+## absolute units and relative units
+
+Absolute units are units that are static or fixed and does not change based on any element or device
+> Px
+Relative units great for responsive website due to "scale up or down according to device" 
+>em, rem, %, vw, vh
+
+https://elementor.com/help/whats-the-difference-between-px-em-rem-vw-and-vh/
+
+## Critical Render Path
+
+Optimizing the critical render path improves render performance, ensure user interactions.
+
+
+
+Looking under the hood. 
+>web page/broswer request HTML file > parsing dom tree > constructs css object model, 
+browser request html file and request from server 
+render means that its display 
+
+you can not render a website until css file is render. 
+
+you want to minify the css file. It makes a css file samer
+
+https://www.cleancss.com/css-minify/
+
+When a web page is loaded, the browser reads the HTML code and builds a structure called the Document Object Model (DOM). Think of it like a tree, with each part of the HTML code being a branch or leaf on that tree.
+
+The process of building this tree is incremental, meaning it happens step by step. First, the HTML response from the server is turned into tokens, which are like building blocks of the DOM. These tokens represent different parts of the HTML code, like tags and content.
+
+These tokens are then used to create nodes, which are like containers that hold information about each part of the HTML code, such as the tag type and attributes. Each node represents an element in the HTML code.
+
+Nodes are connected together based on the hierarchy of the HTML code. For example, if one element is inside another element in the HTML code, the corresponding nodes in the DOM tree are also nested inside each other.
+
+## Flexbox
 
 
 
