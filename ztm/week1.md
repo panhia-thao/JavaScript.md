@@ -12,6 +12,8 @@
 * Boostrap and template
 * CSS grid
 * Careers 
+
+Week 2
 * Javascript
 * development environment
 * git 
@@ -291,7 +293,17 @@ https://elementor.com/help/whats-the-difference-between-px-em-rem-vw-and-vh/
 
 Optimizing the critical render path improves render performance, ensure user interactions.
 
-
+Best practice:
+        1. Minimize and optimize CSS
+        2. Optimize JS Use async and defer attributes for non-critical scripts, and minify and concatenate JavaScript files.
+        3. Inline critical CSS 
+        4. Prioritiz Visible Content - load critical content for immed. visual to user
+        5. lazy Load non-critical resource: defer not needed 
+        6 Optimized Images- use lazy loading and appropriately size
+        7. reduce server response time- using caching and reducing database 
+        8. CDNs use for reducing latency and improving load timing. 
+        9. Minimize redirects
+        10.Use Browser Caching
 
 Looking under the hood. 
 >web page/broswer request HTML file > parsing dom tree > constructs css object model, 
@@ -313,6 +325,162 @@ These tokens are then used to create nodes, which are like containers that hold 
 Nodes are connected together based on the hierarchy of the HTML code. For example, if one element is inside another element in the HTML code, the corresponding nodes in the DOM tree are also nested inside each other.
 
 ## Flexbox
+
+https://flexboxfroggy.com/
+
+## https://darekkay.com/flexbox-cheatsheet/
+
+## css 3
+
+css browser support reference. 
+
+transition: all 1s; 
+
+ this means that I want to transition all element for 1 sec is like hover 
+if an element is not impliment into the browser you will have to add. need to add prefix so that the css will work on the browser. 
+        -moz-box-shadow: (mozilla broswer )
+        -ms-box-shadow (internet explorer)
+        -webkit-box-shadow (safari and chrome)
+        -o-box-shadow (opera broswer)
+        
+
+https://shouldiprefix.com/
+
+> css transitions and transforms == simple and valuable not distracting from interaction for user
+
+div {
+  transition: [property] [duration] [timing-function] [delay];
+}
+
+linear, ease, ease-in, ease-out, and ease-in-out.
+
+
+# transition and transforms need to master it
+
+https://thoughtbot.com/blog/transitions-and-transforms
+
+
+## Responsive UI
+
+responsive means that websit is responsive to different screen size. It is priority when building websit. 
+
+## Evolving technology
+
+technology is moving fast
+always keep up with latest trend
+backward compatibility
+developer maintain or improve 
+xz securly. CDN will place servers at the exchange points of different networks. 
+
+IXPs stands for internet exchange points
+
+TLS stands for Transport Layer Security == secuirty protocol designed to facilitate privacy and data security for communications over the internet. 
+TLS encryption helps protect web app from data breaches and other attacks.
+
+SSL - secure sockets layer 
+
+> TLS and SSL are sometimes used interchaneably
+
+> TLS encrypt communication such as email, messaging and voic over ip 
+
+>TLS === encrption, authentication, integrity
+
+## startup landing page
+
+meta tags for responsive meta tag that allows the browser to know that it should work on mobile device or touching moving screen, 
+
+Responsive meta tag: 
+
+>meta charset="utf-g"
+>meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit="no">
+
+to make an image cover the website code is 
+
+        html {
+                background: url(img.png) no-repeat center center fixed;
+                background-size: cover;
+        }
+
+
+what is mailchimp? 
+
+a service company its a embedded signup form to your website
+
+link to read https://mailchimp.com/en/help/add-a-signup-form-to-your-website/
+
+
+publish website for free on github by using 
+name.github.io
+
+
+What is animate.css? 
+
+https://animate.style/
+
+
+        <head>
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        </head>
+
+## Developer fundamentals: IV
+
+Try to use components that is already created to make website at a faster pace. instead of creating your own. 
+
+Two website that is suggested are 
+animate.style and creative tim (https://creative-tim.com)
+
+Free resource for template: 
+
+        My new favourite: https://html5up.net/
+        Creative Tim Templates
+        Portfolio Templates
+        Free CSS Templates
+        TemplateMo
+        Bootstrap Templates 0
+        Bootstrap Templates 1
+        Bootstrap Templates 2
+        Animate.css
+
+## section Overview
+
+layout foundation for responsive webpage
+
+css grid and flexbox and bootstrap
+
+
+grid and flexbox compliment each other for layout
+
+Best practice
+
+> Flex box > one dimensional > columns or row (layout main, footer and header)
+> Grid > two dimensional layout
+
+most of the web is moving to to css grid, flex box is most supported by browser due to its being older. 
+
+
+grid-gap is now called gap
+
+
+
+what does 1fr mean 1 fraction i get one item
+1fr 1fr mean that I want two item one fraction
+
+grid best practice 
+
+> 1fr or fraction
+
+syntax: 
+
+        display: grid;
+        display: inline-grid;
+
+        grid-template-columns
+        grid-template-rows
+
+        tracks
 
 
 
