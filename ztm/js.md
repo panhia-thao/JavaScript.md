@@ -50,7 +50,7 @@ var
 <!-- const (new in ECMAScript 6)-->
 
 JAVASCRIPT CONDITIONALS
------------------
+-----------------aq 
 if
 else
 else if
@@ -121,3 +121,11 @@ with
 yield
 
 
+what is variable
+
+variable to hold any js data type
+
+; = semicolon means end of expression
+
+expression= is anything that is written 
+undefined = variable is not assign
