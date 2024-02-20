@@ -129,3 +129,50 @@ variable to hold any js data type
 
 expression= is anything that is written 
 undefined = variable is not assign
+
+to create a html doc just use command 
+>!(tab)
+
+the script tag is for javaScript and its best practice to put it on the bottom or defer it if its on top due to loading. 
+You want to load html and css file before js. 
+
+alert() 
+prompt() its a function that pops up a prompt it has its own screen
+console.log() 
+
+Js has built in functions. 
+arguments are what is given to the function for example 
+console.log("hello") > "hello" is the argument 
+you can have multiple of arguments.
+
+There are two ways to create functions: 
+
+    function sayHello() {
+        console.log("hello");
+    }
+
+We need to run a function to see it in the console
+
+    sayHello() 
+
+
+What is a function? 
+
+Function
+
+> input (5, 10) > function > return
+
+In a function we need to return to not get *undefine*  by using *return*
+
+Functions are variables 
+
+parameter and arguments are interchangable 
+
+What is parameters? 
+how many paramenters (a,b)
+
+What is arguement?  are (4,5)
+what are the arguements
+
+
+

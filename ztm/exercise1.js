@@ -24,6 +24,14 @@ false - true //  -1
 true === false //  false
 true != true // false
 
-
+console.log("hello")
 // Make the string: "HI There! It's sunny out" by using the + sign.
 "Hi There! " + "It\'s \"sunny\" out"
+
+function one(){
+    return "hello";
+}
+
+console.log(one())
+
+one();
