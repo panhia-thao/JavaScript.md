@@ -1,10 +1,10 @@
 Monthly goal: 
 
 I need to write summary of my learning.
-I want to finish at least 5 hours of coding per day. 
-I want to eat health. 
-I want to drink tea. 
-I want to practice manifestation.
+I need to finish at least 5 hours of coding per day. 
+I need to eat health. 
+I need to drink tea. 
+I  to practice manifestation.
 I want to practice praying. 
 I want to get into habits. 
 I want to learn to be successful. 
@@ -24,7 +24,11 @@ I want success and happiness.
 I want my communication to be better. 
 I want to be positive and connect with people. 
 Twin babies
-
+I pray that I am able to gift my parents 15k per year
+I pray that I can gift my huband 20k per two years for his birthday. 
+I pray for generational wealth
+I pray for my kid to grow up to be more educated than me. 
+I pray love and happiness. 
 
 Need Imposter Syndrome
 
