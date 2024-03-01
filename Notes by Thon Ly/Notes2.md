@@ -15,6 +15,8 @@ There are two event that happens at event propagation.
 
 *Best Practice:*
     Never ID HTML = its a window
+
+Summary: Event propagation occurs on the DOM element such as a click and the browser follows the process call event propagation that has two phases of event propagation: event capture which is the process the event from the root to the element. Event bubble the browser process the target element back to the roo of the DOM tree. 
     
 
 Exercise:
@@ -57,6 +59,19 @@ A function definition in JavaScript is a block of code that specifies the behavi
         function greet(name) {
         return "Hello, " + name + "!";
     }
+
+
+1. Does a function need to be executed or does it need to do something first? 
+    Answer: All callback functions are fnction definition
+
+## What is arrow function? 
+
+() => is a anonymous function. It is a function definition
+
+## What is a callback function? 
+
+
+Callback function is used in event handling to execute specific code when an event occurs
 
 
 

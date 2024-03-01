@@ -95,3 +95,5 @@ new function window: console can be use in Js
 console.log("panhia")
 the function logs keep what you want in the log()
 
+
+

@@ -483,6 +483,40 @@ event reference
 https://developer.mozilla.org/en-US/docs/Web/Events
 
 
-# callback function
+## callback function
 
+
+## JQuery
+https://youmightnotneedjquery.com/
+
+caniuse
+JQuery solve the problem of checking elements are compatible with browser. 
+
+making element incompatibility === compatibility
+
+Syntax code of JQuery
+>$(selector).action()
+
+        1.  $ is a reference to the jQuery object (it's a function).
+        2. selector is used to select HTML elements to manipulate.
+        3. action() is a method to perform on the selected elements.
+
+this is like call back function
+
+        p.addEventListener("click", ())AZ  
+
+jQuery once made JS very easy and adaptive to web browser but now querySelector is used instead of JQuery.
+
+To view the different of jquery usage and querySelector
+
+React is a library that solve the problem of Jquery. 
+
+History of the Web:
+ Html > CSS > JS > jQuery > libraries
+
+## DOM manipulation
+
+DOM manipulation is changing the HTML element and their attribute. 
+
+DOM manipulation is a fundamental aspect of front-end web development and is used to create dynamic and interactive web pages.
 
