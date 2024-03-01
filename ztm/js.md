@@ -520,3 +520,153 @@ DOM manipulation is changing the HTML element and their attribute.
 
 DOM manipulation is a fundamental aspect of front-end web development and is used to create dynamic and interactive web pages.
 
+## Developer fundamentals: V 
+
+Performance is key. 
+
+     Minimized backend request
+    1. Location of server
+    2. How many trips
+    3. Size of files
+
+minimized the dom manipulation and event and use the best method
+
+This is the reason for React. 
+
+## Scope
+
+Root or parent scoop
+
+it is in the window scope
+
+any function has access to variable. 
+        var b = 5;
+        function add5(num) {
+            5+num
+            console.log(add5)
+        }
+
+
+local vs global
+
+make sure our code is run  when run accidental interference. 
+
+
+
+# Advanced Control Flow
+
+Ternary Operation
+
+Condition? exper1: exper2
+function isUserValid(boolean) {
+    return boolean;
+}
+
+var answer = isUserValid(true) ? "enter" : "access denied"
+
+Switch Statement is better than if else
+
+What is a library? 
+a piece of code that makes it easier to use. 
+
+ECMAScript 6 
+
+ECMA Internation === standarized js language
+
+ES6 stands for ECMAScript 6
+
+What is babel? 
+Babel is a js compile that makes js code more cleaner 
+
+    const a = (x,z) => x+z;
+
+
+const = variable cannot be change
+var = a global variable
+let = reassign variable for changing
+
+declaring object 
+
+
+
+template string
+
+    ${variable}
+
+function greeting(name, age, )
+
+arrow function 
+
+(a,b) => {}
+
+## Advanced Functions
+
+### scope 
+
+local scope - variable that are accessible only within the function (local scope) 
+
+global scope - variable that are accessible from anywhere in the code
+
+closure - a closure function access variables from its parent scope, it remember its environment in which it was created, including any variable that wree in a scope at the time. 
+        function outerFunction() {
+        let outerVariable = 'I am outer';
+
+        function innerFunction() {
+            console.log(outerVariable);
+        }
+
+        return innerFunction;
+        }
+
+        const myClosure = outerFunction();
+        myClosure(); // Output: I am outer
+
+
+
+Scope prevents bugs or errors
+
+
+What is Curry?
+
+currying is a technique used to transform a function with multiple arguments into a sequence of nested functions, each taking a single argument. The curried function allows you to pass arguments one at a time and returns a new function with each argument until all arguments are provided and the original function is invoked.
+
+        function multiply(a) {
+        return function(b) {
+            return a * b;
+        };
+        }
+
+const multiplyByTwo = multiply(2);
+console.log(multiplyByTwo(3)); // Output: 6
+
+What is a compose? 
+
+ is the act of combining two or more functions to produce a new function
+
+
+        function addTwo(x) {
+        return x + 2;
+        }
+
+
+
+## Avoiding side effects and functional purity
+
+avoid side effects and functional purity and deterministic. 
+
+*As a coder you want to create function that minized side effects and has functional purity. This means that the function is deterministic.
+
+
+## Arrays
+
+ForEach
+
+## Advance Object
+
+objects are reference type
+
+
+
+
+
+
