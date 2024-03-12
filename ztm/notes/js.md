@@ -665,8 +665,49 @@ ForEach
 
 objects are reference type
 
+# Pass by value vs Pass by reference
+
+Primitive types are immutable.
+
+This mean that we can't change it.
+
+        var a= 5;
+        var b= 10;
+
+        this is pass by value
+
+In order to change primitive type you have to remove it from memory. 
 
 
 
+Object are considered pass by reference. 
+
+   let obj1={'yao', password: '123}
+
+Objects are pass by reference which mean that we don't copy the values like we did with primitives types. 
+
+when we assigned obj1 to obj2 this mean this is the address to the memory of this object. 
+
+Why is this good? 
+we are saming memory and location
 
 
+arrays are objects
+
+Pass by reference makes it easier to clone 
+
+let clone = Object.assign({})
+le{...obj}
+
+
+### typecoercion
+
+https://dorey.github.io/JavaScript-Equality-Table/
+
+
+
+Type coercion is the automatic conversion of values from one data type to another in JavaScript. 
+
+It's generally recommended to avoid using implicit type coercion in JavaScript by using strict equality (=== and !==) instead of loose equality (== and !=).
+
+make code easier to understand.
